@@ -31,15 +31,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
         <!-- CSS -->
-        <link rel="stylesheet" href="/css/bootstrap.css">
-        <link rel="stylesheet" href="/css/font-awesome.min.css">
-        <link rel="stylesheet" href="/css/headhesive.css">
-        <link rel="stylesheet" href="/css/revolution.css">
-        <link rel="stylesheet" href="/css/jquery.countdown.css">
-        <link rel="stylesheet" href="/css/magnific-popup.css">
-        <link rel="stylesheet" href="/css/owl.carousel.css">
-        <link rel="stylesheet" href="/css/owl.theme.css">
-        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/wp-content/themes/hipaccounting/css/bootstrap.css">
+        <link rel="stylesheet" href="/wp-content/themes/hipaccounting/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/wp-content/themes/hipaccounting/css/headhesive.css">
+        <link rel="stylesheet" href="/wp-content/themes/hipaccounting/css/revolution.css">
+        <link rel="stylesheet" href="/wp-content/themes/hipaccounting/css/jquery.countdown.css">
+        <link rel="stylesheet" href="/wp-content/themes/hipaccounting/css/magnific-popup.css">
+        <link rel="stylesheet" href="/wp-content/themes/hipaccounting/css/owl.carousel.css">
+        <link rel="stylesheet" href="/wp-content/themes/hipaccounting/css/owl.theme.css">
+        <link rel="stylesheet" href="/wp-content/themes/hipaccounting/css/main.css">
 
         <!-- modernizr -->
             <script src="/js/modernizr.custom.js"></script>
