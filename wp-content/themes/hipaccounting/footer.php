@@ -48,19 +48,19 @@
 </div><!-- #wrapper -->
 <?php wp_footer(); ?>
 
-		<!-- modernizr -->
-        <script src="/js/modernizr.custom.js"></script>
-    	  <script src="/js/jquery-1.11.0.min.js"></script>
-        <script src="/js/bootstrap.min.js"></script>
-        <script src="/js/headhesive.min.js"></script>
-        <script src="/js/jquery.themepunch.plugins.min.js"></script>
-        <script src="/js/jquery.themepunch.revolution.min.js"></script>
-        <script src="/js/owl.carousel.min.js"></script>
-        <script src="/js/jquery.magnific-popup.min.js"></script>
-        <script src="/js/jquery.stellar.min.js"></script>
-        <script src="/js/smooth-scroll.js"></script>
-        <script src="/js/retina-1.1.0.min.js"></script>
-        <script src="/js/main.js"></script>
+<!-- modernizr -->
+    <script src="/wp-content/themes/hipaccounting/js/modernizr.custom.js"></script>
+    <script src="/wp-content/themes/hipaccounting/js/jquery-1.11.0.min.js"></script>
+    <script src="/wp-content/themes/hipaccounting/js/bootstrap.min.js"></script>
+    <script src="/wp-content/themes/hipaccounting/js/headhesive.min.js"></script>
+    <script src="/wp-content/themes/hipaccounting/js/jquery.themepunch.plugins.min.js"></script>
+    <script src="/wp-content/themes/hipaccounting/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="/wp-content/themes/hipaccounting/js/owl.carousel.min.js"></script>
+    <script src="/wp-content/themes/hipaccounting/js/jquery.magnific-popup.min.js"></script>
+    <script src="/wp-content/themes/hipaccounting/js/jquery.stellar.min.js"></script>
+    <script src="/wp-content/themes/hipaccounting/js/smooth-scroll.js"></script>
+    <script src="/wp-content/themes/hipaccounting/js/retina-1.1.0.min.js"></script>
+    <script src="/wp-content/themes/hipaccounting/js/main.js"></script>
 
         <!-- GOOGLE ANALYTICS -->
         <script>
