@@ -22,5 +22,12 @@ $(document).ready(function(){
     callbackAfter: function ( toggle, anchor ) {} // Function to run after scrolling
   });
 
+  //Resize navigation clone
+  function reBanner(){
+  var bannerHead = document.getElementsByClassName("banner--clone")[0];
+  var navBar = bannerHead.getElementsByTagName('nav')[0];
+  navBar.setAttribute( "class", "navbar navbar-custom navbar-slim" );;
+  }
+  reBanner();
 
 });

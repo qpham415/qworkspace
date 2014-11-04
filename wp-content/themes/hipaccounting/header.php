@@ -76,7 +76,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" data-scroll href="#top" style="text-decoration: none; font-weight:bold;color:#333;line-height:36px;font-size:36px;"><span style="color:orange">HIP</span> Accounting</a>
+              <a class="navbar-brand" data-scroll href="" style="text-decoration: none; font-weight:bold;color:#333;line-height:50px;font-size:36px;"><span style="color:orange">HIP</span> Accounting</a>
             </div>
 
             <div class="collapse navbar-collapse" id="nav">
