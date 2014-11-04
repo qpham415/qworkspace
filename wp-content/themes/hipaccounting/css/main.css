@@ -79,6 +79,10 @@ header {
 	-webkit-box-shadow: 0 5px 5px -5px rgba(0, 0, 0, .20);
 }
 
+.navbar-slim {
+	padding: 0px;
+}	
+
 .navbar-custom a {
 	color:#999999;
 }
