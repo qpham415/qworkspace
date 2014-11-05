@@ -81,7 +81,7 @@ header {
 
 .navbar-slim {
 	padding: 0px;
-}	
+}
 
 .navbar-custom a {
 	color:#999999;
@@ -121,6 +121,10 @@ header {
 }
 
 .tp-banner h3 { color: #fff }
+
+.navbar-custom .navbar-nav > li:last-child > a{
+	color: darkorange;
+}
 
 /* FEATURE 1 */
 
