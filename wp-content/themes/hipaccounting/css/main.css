@@ -117,7 +117,7 @@ header {
 }
 
 .banner--clone .navbar-custom .navbar-nav > li > a:hover {
-	color:#000000;
+	color:orange;
 }
 
 .tp-banner h3 { color: #fff }
