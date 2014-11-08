@@ -13,7 +13,7 @@ Template Name: Feature1
         <div class="pHeader"> <?php echo $key_1_value = get_post_meta( get_the_ID(), 'pageHeader', true );?></div>
         <div class="pSlogan"> <?php echo $key_1_value = get_post_meta( get_the_ID(), 'pageSlogan', true );?></div>
         <div class="entry-content">
-          <div id="indexwrapper">
+          <div class="indexwrapper">
             <div id="section1wrap" class="headwrap">
               <?php the_block( 'section1') ?>
             </div>
