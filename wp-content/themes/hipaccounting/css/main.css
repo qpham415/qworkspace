@@ -714,3 +714,31 @@ h3 {
 	color: #999;
 	line-height: 1.3
 }
+
+.clear {
+	clear:both;
+}
+
+.pHeader {
+	text-align: center;
+	font-weight: bold;
+	font-size: 36px;
+	padding-top: 50px;
+	color: #aa425b;
+}
+
+.pSlogan {
+	text-align: center;
+	font-size: 23px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+.headwrap {
+	width: 33%;
+	float: left;
+}
+
+.aligncenter {
+	text-align: center;
+}
