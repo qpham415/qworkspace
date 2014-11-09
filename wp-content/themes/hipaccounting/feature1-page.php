@@ -20,9 +20,15 @@ Template Name: Feature1
             </div>
             <div id="section2wrap" class="headwrap">
               <?php the_block( 'section2') ?>
+              <div class="buttonwrap">
+                <a class="button button-border-dark" href="<?php echo $key_1_value = get_post_meta( get_the_ID(), 'link2', true );?>">read more</a>
+              </div>
             </div>
             <div id="section3wrap" class="headwrap">
               <?php the_block( 'section3') ?>
+              <div class="buttonwrap">
+                <a class="button button-border-dark" href="<?php echo $key_1_value = get_post_meta( get_the_ID(), 'link3', true );?>">read more</a>
+              </div>
             </div>
           </div>
           <div class="clear"></div>
