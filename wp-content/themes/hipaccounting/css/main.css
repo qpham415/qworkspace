@@ -743,6 +743,7 @@ h3 {
 }
 
 .indexcontent {
-	margin-top: 60px;
-	background-color: lightgrey;
+	margin-top: 100px;
+	background-color: rgba(200,200,200,0.2);
+	padding: 30px 60px;
 }
