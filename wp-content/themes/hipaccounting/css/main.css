@@ -73,7 +73,7 @@ header {
 	margin-bottom:0;
 	padding:20px 0;
 	width:100%;
-	z-index:99999;
+	z-index:1042;
 	box-shadow: 0 5px 5px -5px rgba(0, 0, 0, .20);
 	-moz-box-shadow: 0 5px 5px -5px rgba(0, 0, 0, .20);
 	-webkit-box-shadow: 0 5px 5px -5px rgba(0, 0, 0, .20);
@@ -749,4 +749,9 @@ h3 {
 	margin-top: 100px;
 	background-color: rgba(200,200,200,0.2);
 	padding: 30px 60px;
+}
+
+#gallerybottom {
+	padding: 50px 0;
+	background-color: rgba(200,200,200,0.2);
 }
