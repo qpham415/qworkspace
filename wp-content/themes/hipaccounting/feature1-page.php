@@ -14,6 +14,9 @@ Template Name: Feature1
           <div class="indexwrapper">
             <div id="section1wrap" class="headwrap">
               <?php the_block( 'section1') ?>
+              <div class="buttonwrap">
+                <a class="button button-border-dark" href="<?php echo $key_1_value = get_post_meta( get_the_ID(), 'link1', true );?>">read more</a>
+              </div>
             </div>
             <div id="section2wrap" class="headwrap">
               <?php the_block( 'section2') ?>
