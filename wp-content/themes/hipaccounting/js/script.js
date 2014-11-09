@@ -30,4 +30,56 @@ $(document).ready(function(){
   }
   reBanner();
 
+
+//	//MAGNIFIC POPUP IMAGE
+	$('.image-link').magnificPopup({
+		type:'image',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		},
+
+	});
+
+	//MAGNIFIC POPUP AJAX CONTENT
+	$('.register').magnificPopup({type: 'ajax'});
+  
+  //OWLCAROUSEL GALLERY
+  var owl = $(".gallery");
+
+    owl.owlCarousel({
+      itemsCustom : [
+      [0, 1],
+      [450, 1],
+      [600, 2],
+      [700, 2],
+      [1000, 3],
+      [1200, 3],
+      [1600, 3]
+      ],
+      pagination : true,
+      navigation : false,
+      navigationText : ['<i class="fa fa-4x fa-chevron-circle-left"></i>','<i class="fa fa-4x  fa-chevron-circle-right"></i>'],
+    });
+
+    //OWLCAROUSEL PRICING
+  var owl = $(".pricing");
+
+    owl.owlCarousel({
+      itemsCustom : [
+      [0, 1],
+      [450, 1],
+      [600, 2],
+      [700, 2],
+      [1000, 4],
+      [1200, 4],
+      [1600, 4]
+      ],
+      pagination : true,
+      navigation : false,
+      navigationText : ['<i class="fa fa-4x fa-chevron-circle-left"></i>','<i class="fa fa-4x  fa-chevron-circle-right"></i>'],
+    });
+
+
 });
