@@ -1,0 +1,1 @@
+- Show fields for only posts or only pages

@@ -1,6 +1,6 @@
 <?php
   /*
-Template Name: Feature1
+Template Name: Overview
 */
   get_header();
 ?>
