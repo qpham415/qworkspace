@@ -721,17 +721,11 @@ h3 {
 
 .pHeader {
 	text-align: center;
-	font-weight: bold;
-	font-size: 36px;
-	padding-top: 50px;
-	color: #aa425b;
+	padding-top: 70px;
 }
 
 .pSlogan {
 	text-align: center;
-	font-size: 23px;
-	font-weight: bold;
-	padding-top: 10px;
 }
 
 .headwrap {
@@ -746,4 +740,9 @@ h3 {
 
 .indexwrapper {
 	margin-top: 50px;
+}
+
+.indexcontent {
+	margin-top: 60px;
+	background-color: lightgrey;
 }
