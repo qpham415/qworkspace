@@ -44,10 +44,6 @@ h3 {
 	line-height:20px;
 }
 
-section {
-	padding:65px 0;
-}
-
 .uppercase {
 	text-transform:uppercase;
 }
@@ -724,7 +720,7 @@ h3 {
 
 .pHeader {
 	text-align: center;
-	padding-top: 70px;
+	padding-top: 65px;
 }
 
 .pSlogan {
@@ -751,7 +747,41 @@ h3 {
 	padding: 30px 120px;
 }
 
+#gallery {
+	padding-top: 65px;
+}
+
 #gallerybottom {
 	padding: 50px 120px;
 	background-color: rgba(200,200,200,0.2);
+}
+
+.featContainer {
+	width: 100%;
+	background-color: rgba(200,200,200,0.2);
+	overflow: auto;
+	padding: 55px 0;
+	background-image: url(/wp-content/themes/hipaccounting/img/img/app-isometric.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	min-height: 550px;
+}
+
+.featWrap {
+	width: 60%;
+}
+
+.featHeader {
+	padding: 0 50px;
+}
+
+
+.featuresAll {
+	float: left;
+	width: 50%;
+	padding: 30px 30px;
+}
+
+.featRow {
+	overflow: auto;
 }
