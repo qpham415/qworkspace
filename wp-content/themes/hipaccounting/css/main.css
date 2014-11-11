@@ -748,7 +748,7 @@ h3 {
 }
 
 #gallery {
-	padding-top: 65px;
+	padding: 65px;
 }
 
 #gallerybottom {
@@ -764,7 +764,7 @@ h3 {
 	background-image: url(/wp-content/themes/hipaccounting/img/img/app-isometric.png);
 	background-repeat: no-repeat;
 	background-position: right bottom;
-	min-height: 550px;
+	min-height: 800px;
 }
 
 .featWrap {
