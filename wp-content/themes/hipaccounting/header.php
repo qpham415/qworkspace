@@ -3,7 +3,7 @@
 <head profile="http://gmpg.org/xfn/11">
     <title><?php
         if ( is_single() ) { single_post_title(); }
-        elseif ( is_home() || is_front_page() ) { bloginfo('name'); print ' | '; bloginfo('description'); get_page_number(); }
+        elseif ( is_home() || is_front_page() ) { bloginfo('name'); get_page_number(); }
         elseif ( is_page() ) { single_post_title(''); }
         elseif ( is_search() ) { bloginfo('name'); print ' | Search results for ' . wp_specialchars($s); get_page_number(); }
         elseif ( is_404() ) { bloginfo('name'); print ' | Not Found'; }
