@@ -4,7 +4,7 @@ Template Name: Features
 */
   get_header();
 ?>
-    <div id="content">
+    <div id="featuresContent">
       <?php the_post(); ?>
 
       <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -29,7 +29,7 @@ Template Name: Features
                 <?php the_block('feat4') ?>
               </div>
             </div>
-          </div>  
+          </div>
         </div>
       </div><!-- #post-<?php the_ID(); ?> -->
 

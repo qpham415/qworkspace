@@ -4,7 +4,7 @@ Template Name: Overview
 */
   get_header();
 ?>
-    <div id="content">
+    <div id="overviewContent">
       <?php the_post(); ?>
 
       <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -37,7 +37,7 @@ Template Name: Overview
             <?php wp_link_pages('before=<div class="page-link">' . __( 'Pages:', 'your-theme' ) . '&after=</div>') ?>
             <?php edit_post_link( __( 'Edit', 'your-theme' ), '<span class="edit-link">', '</span>' ) ?>
           </div>
-        </div><!-- .entry-content -->
+        </div><!--content -->
       </div><!-- #post-<?php the_ID(); ?> -->
 
       <?php if ( get_post_custom_values('comments') ) comments_template() // Add a custom field with Name and Value of "comments" to enable comments on this page ?>

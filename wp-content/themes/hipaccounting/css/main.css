@@ -785,3 +785,22 @@ h3 {
 .featRow {
 	overflow:  auto;
 }
+
+.blogHeader {
+	min-height: 270px;
+	padding-top: 65px;
+}
+
+.blogFooter {
+	min-height: 270px;
+	padding-top: 65px;
+}
+
+#blogContent {
+	background-color: rgba(200,200,200,0.2);
+	padding: 0 170px 60px 170px;
+}
+
+.post {
+	padding-top: 70px;
+}

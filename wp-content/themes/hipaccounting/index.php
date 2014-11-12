@@ -1,12 +1,17 @@
 <?php get_header(); ?>
+<div class="blogHeadWrap">
+  <div class="blogHeader">
+    <?php the_block( 'blog Header') ?>
+  </div>
+</div>
 <div id="container">
- 
-    <div id="content">
+
+    <div id="blogContent">
 		<?php /* Top post navigation */ ?>
 		<?php global $wp_query; $total_pages = $wp_query->max_num_pages; if ( $total_pages > 1 ) { ?>
 
 		<?php } ?>
-		
+
 		<?php /* The Loop — with comments! */ ?>
 		<?php while ( have_posts() ) : the_post() ?>
 
@@ -14,16 +19,6 @@
 		                <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		<?php /* an h2 title */ ?>
 		                    <h2 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php printf( __('Permalink to %s', 'hbd-theme'), the_title_attribute('echo=0') ); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
-
-		<?php /* Microformatted, translatable post meta */ ?>
-		                    <div class="entry-meta">
-		                        <span class="meta-prep meta-prep-author"><?php _e('By ', 'hbd-theme'); ?></span>
-		                        <span class="author vcard"><a class="url fn n" href="<?php echo get_author_link( false, $authordata->ID, $authordata->user_nicename ); ?>" title="<?php printf( __( 'View all posts by %s', 'hbd-theme' ), $authordata->display_name ); ?>"><?php the_author(); ?></a></span>
-		                        <span class="meta-sep"> | </span>
-		                        <span class="meta-prep meta-prep-entry-date"><?php _e('Published ', 'hbd-theme'); ?></span>
-		                        <span class="entry-date"><abbr class="published" title="<?php the_time('Y-m-d\TH:i:sO') ?>"><?php the_time( get_option( 'date_format' ) ); ?></abbr></span>
-		                        <?php edit_post_link( __( 'Edit', 'hbd-theme' ), "<span class=\"meta-sep\">|</span>\n\t\t\t\t\t\t<span class=\"edit-link\">", "</span>\n\t\t\t\t\t" ) ?>
-		                    </div><!-- .entry-meta -->
 
 		<?php /* The entry content */ ?>
 		                    <div class="entry-content">
@@ -41,10 +36,10 @@
 		                    </div><!-- #entry-utility -->
 		                </div><!-- #post-<?php the_ID(); ?> -->
 
-		<?php /* Close up the post div and then end the loop with endwhile */ ?>      
+		<?php /* Close up the post div and then end the loop with endwhile */ ?>
 
 		<?php endwhile; ?>
-		
+
 		<?php /* Bottom post navigation */ ?>
 		<?php global $wp_query; $total_pages = $wp_query->max_num_pages; if ( $total_pages > 1 ) { ?>
 		                <div id="nav-below" class="navigation">
@@ -54,7 +49,13 @@
     </div><!-- #content -->
 
 	<?php get_sidebar(); ?>
- 
+
 </div><!-- #container -->
- 
+
+<div class="blogFootWrap">
+  <div class="blogFooter">
+    <?php the_block( 'Blog footer') ?>
+  </div>
+</div>
+
 <?php get_footer(); ?>

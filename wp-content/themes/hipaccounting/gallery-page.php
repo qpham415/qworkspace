@@ -4,7 +4,7 @@ Template Name: Gallery
 */
 ?>
 <?php get_header(); ?>
-  <div id="content">
+  <div id="galleryContent">
     <?php the_post(); ?>
 
     <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
