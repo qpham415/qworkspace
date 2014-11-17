@@ -348,15 +348,15 @@ select {
 
 .button-light:hover,
 .button-light:active {
-	color:#934344;
+	color:#428bca;
 	background:#ffffff;
 	text-decoration:none;
 }
 
 .button-dark {
 	color:#ffffff;
-	background:#37193f;
-	border:2px solid #37193f;
+	background:#428bca;
+	border:2px solid #428bca;
 }
 
 .button-dark:hover,
@@ -368,15 +368,15 @@ select {
 }
 
 .button-border-dark {
-	color:#934344;
-	border:1px solid #934344;
+	color:#428bca;
+	border:1px solid #428bca;
 }
 
 .button-border-dark:hover,
 .button-border-dark:active {
 	color:#eeeeee;
-	background:#934344;
-	border:1px solid #934344;
+	background:#428bca;
+	border:1px solid #428bca;
 	text-decoration:none;
 }
 
@@ -611,7 +611,7 @@ figure.effect-bubba:hover p {
 
 h2 {
 	font: 800 26px Raleway;
-	color: #aa425b;
+	color: #428bca;
 	letter-spacing: -1px;
 	margin: 0 0 0px 0 !important;
 	padding: 0 !important;
@@ -804,4 +804,46 @@ h3 {
 
 .post {
 	padding-top: 70px;
+}
+
+#pricingContent {
+	background-color: rgba(200,200,200,0.2);
+}
+
+.pricingHeader {
+	padding: 60px 100px;
+}
+
+.pricingContent {
+	text-align: center;
+	padding-bottom: 85px;
+}
+
+.pricingBox {
+	width: 25%;
+	float: left;
+	margin: 50px 0;
+	padding: 0 10px;
+	border-right: 1px solid rgb(200,200,200);
+}
+
+.pricingBoxWrap {
+	display: inline-block;
+	width: 80%;
+	background-color: #FFFFFF;
+	border-radius: 20px;
+}
+
+.pricingBoxWrap div:first-child {
+	border-left: none;
+}
+
+.pricingBoxWrap div:last-child {
+	border-right: none;
+}
+
+.pricingBottom {
+	padding: 75px 120px;
+	background-color: #FFFFFF;
+	min-height: 270px;
 }
