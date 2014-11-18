@@ -387,7 +387,7 @@ select {
 
 /* OWLCAROUSEL */
 .owl-theme .owl-controls .owl-page span {
-	background:#934344;
+	background:rgb(160,160,160);
 }
 
 .owl-theme .owl-controls .owl-buttons div{
@@ -400,11 +400,15 @@ select {
 
 .gallery .item {
 	margin:0 15px;
-	background: #37193f;
+	background: rgb(160,160,160);
 }
 
 .gallery .owl-controls {
 	margin-top: 30px;
+}
+
+.gallery {
+	padding: 30px 95px 75px 95px;
 }
 
 figure {
@@ -517,15 +521,15 @@ figure.effect-bubba figcaption::after {
 }
 
 figure.effect-bubba figcaption::before {
-	border-top: 1px dashed #612446;
-	border-bottom: 1px dashed #612446;
+	border-top: 1px dashed #428bca;
+	border-bottom: 1px dashed #428bca;
 	-webkit-transform: scale(0,1);
 	transform: scale(0,1);
 }
 
 figure.effect-bubba figcaption::after {
-	border-right: 1px dashed #612446;
-	border-left: 1px dashed #612446;
+	border-right: 1px dashed #428bca;
+	border-left: 1px dashed #428bca;
 	-webkit-transform: scale(1,0);
 	transform: scale(1,0);
 }
@@ -560,7 +564,7 @@ figure.effect-bubba:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
-	color: #612446 !important
+	color: #428bca !important
 }
 
 
@@ -748,7 +752,7 @@ h3 {
 	padding: 30px 120px;
 }
 
-#gallery {
+.galleryHeader {
 	padding: 65px;
 }
 
@@ -757,6 +761,9 @@ h3 {
 	background-color: rgba(200,200,200,0.2);
 }
 
+.galleryWrap{
+	overflow: auto;
+}
 .featContainer {
 	width: 100%;
 	background-color: rgba(200,200,200,0.2);

@@ -4,16 +4,14 @@ Template Name: Gallery
 */
 ?>
 <?php get_header(); ?>
-  <div id="galleryContent">
-    <?php the_post(); ?>
+<div id="galleryContent">
+  <?php the_post(); ?>
 
-    <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-      <section id="gallery">
-       	<div class="container">
-          <div class="row">
-            <div class="col-lg-12 text-center">
-              <?php the_content(); ?>
-            </div>
+<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+  <div id="galleryWrap">
+    <div class="galleryHeader">
+      <?php the_content(); ?>
+    </div>
 
             <div class="gallery col-lg-12">
 
@@ -63,16 +61,15 @@ Template Name: Gallery
 
             </div> <!-- gallery -->
 
-          </div> <!-- row -->
 
-        </div> <!-- container -->
-      </section>
-      <div id="gallerybottom"><?php the_block( 'section2') ?></div>
-    </div><!-- #post-<?php the_ID(); ?> -->
+    <div class="clear"></div>
+    <div id="gallerybottom"><?php the_block( 'section2') ?></div>
+  </div><!-- galleryWrap -->
+</div><!-- #post-<?php the_ID(); ?> -->
 
     <?php if ( get_post_custom_values('comments') ) comments_template() // Add a custom field with Name and Value of "comments" to enable comments on this page ?>
 
-  </div><!-- #content -->
+</div><!-- #content -->
 <?php get_sidebar(); ?>
 
 <?php get_footer(); ?>

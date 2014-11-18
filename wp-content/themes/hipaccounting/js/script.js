@@ -44,7 +44,7 @@ $(document).ready(function(){
 
 	//MAGNIFIC POPUP AJAX CONTENT
 	$('.register').magnificPopup({type: 'ajax'});
-  
+
   //OWLCAROUSEL GALLERY
   var owl = $(".gallery");
 
@@ -62,24 +62,5 @@ $(document).ready(function(){
       navigation : false,
       navigationText : ['<i class="fa fa-4x fa-chevron-circle-left"></i>','<i class="fa fa-4x  fa-chevron-circle-right"></i>'],
     });
-
-    //OWLCAROUSEL PRICING
-  var owl = $(".pricing");
-
-    owl.owlCarousel({
-      itemsCustom : [
-      [0, 1],
-      [450, 1],
-      [600, 2],
-      [700, 2],
-      [1000, 4],
-      [1200, 4],
-      [1600, 4]
-      ],
-      pagination : true,
-      navigation : false,
-      navigationText : ['<i class="fa fa-4x fa-chevron-circle-left"></i>','<i class="fa fa-4x  fa-chevron-circle-right"></i>'],
-    });
-
 
 });
