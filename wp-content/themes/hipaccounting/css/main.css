@@ -808,13 +808,21 @@ h3 {
 	padding-top: 65px;
 }
 
-#blogContent {
+
+#blogContainer {
+	text-align: center;
 	background-color: rgba(200,200,200,0.2);
-	padding: 0 170px 60px 170px;
 }
 
-.post {
-	padding-top: 70px;
+#blogContent {
+	width: 1100px;
+	text-align: left;
+	display: inline-block;
+	margin-bottom: 70px;
+}
+
+#blogContent .post {
+	margin-top: 70px;
 }
 
 #pricingContent {
@@ -849,4 +857,18 @@ h3 {
 	padding: 75px 120px;
 	background-color: #FFFFFF;
 	min-height: 270px;
+}
+
+#singleContainer {
+	background: rgba(200,200,200,0.2);
+	text-align: center;
+}
+
+#singleContent {
+	width: 1100px;
+	text-align: left;
+	display: inline-block;
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 30px;
 }
