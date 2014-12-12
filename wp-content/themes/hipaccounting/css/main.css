@@ -869,6 +869,13 @@ h3 {
 	text-align: left;
 	display: inline-block;
 	background-color: #fff;
-	border-radius: 10px;
+	border-radius: 7px;
 	padding: 30px;
+	margin: 70px 0;
+	box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, .20);
+	-webkit-box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, .20);
+}
+
+#singleContent .post .entry-title {
+	font-weight: 700;
 }
