@@ -44,6 +44,10 @@ h3 {
 	line-height:20px;
 }
 
+hr {
+	margin: 5px 0 !important;
+}
+
 .uppercase {
 	text-transform:uppercase;
 }
@@ -308,7 +312,7 @@ select {
 
 .button {
 	font-family:'Raleway';
-	font-size: 15px;
+	font-size: 13px;
 	font-weight: 700;
 	text-transform: uppercase;
 	border: none;
@@ -354,16 +358,16 @@ select {
 }
 
 .button-dark {
-	color:rgb(240,118,0);
-	background:rgb(240,118,0);
-	border:2px solid rgb(240,118,0);
+	color:rgb(90,90,90);
+	background:rgba(160,160,160,0.2);
+	border:2px solid rgba(160,160,160,0.2);
 }
 
 .button-dark:hover,
 .button-dark:active {
-	color:#eeeeee;
-	background:#612446;
-	border:2px solid #612446;
+	color:#fff;
+	background:rgba(90,90,90,0.7);
+	border:2px solid rgba(90,90,90,0.7);
 	text-decoration:none;
 }
 
@@ -374,9 +378,9 @@ select {
 
 .button-border-dark:hover,
 .button-border-dark:active {
-	color:#eeeeee;
-	background:#FF9900;
-	border:1px solid #FF9900;
+	color:#fff;
+	background:rgba(255,153,0,0.7);
+	border:1px solid rgba(255,153,0,0.7);
 	text-decoration:none;
 }
 
@@ -521,15 +525,15 @@ figure.effect-bubba figcaption::after {
 }
 
 figure.effect-bubba figcaption::before {
-	border-top: 1px dashed #428bca;
-	border-bottom: 1px dashed #428bca;
+	border-top: 1px dashed #FF9900;
+	border-bottom: 1px dashed #FF9900;
 	-webkit-transform: scale(0,1);
 	transform: scale(0,1);
 }
 
 figure.effect-bubba figcaption::after {
-	border-right: 1px dashed #428bca;
-	border-left: 1px dashed #428bca;
+	border-right: 1px dashed #FF9900;
+	border-left: 1px dashed #FF9900;
 	-webkit-transform: scale(1,0);
 	transform: scale(1,0);
 }
@@ -564,7 +568,7 @@ figure.effect-bubba:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
-	color: #428bca !important
+	color: #FF9900 !important
 }
 
 
@@ -827,26 +831,18 @@ h3 {
 }
 
 .pricingBox {
-	width: 25%;
+	width: 250px;
 	float: left;
-	margin: 50px 0;
-	padding: 0 10px;
-	border-right: 1px solid rgb(200,200,200);
+	margin: 10px;
+	padding: 20px 0;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border: 1px solid rgba(160,160,160,0.2);
 }
 
 .pricingBoxWrap {
 	display: inline-block;
-	width: 80%;
-	background-color: #FFFFFF;
-	border-radius: 20px;
-}
-
-.pricingBoxWrap div:first-child {
-	border-left: none;
-}
-
-.pricingBoxWrap div:last-child {
-	border-right: none;
+	overflow: auto;
 }
 
 .pricingBottom {

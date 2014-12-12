@@ -18,25 +18,25 @@ Template Name: Pricing
         <div class="pricingBox">
           <?php the_block('pricing1') ?>
           <div class="buttonwrap">
-            <a class="button button-border-dark" href="<?php echo $key_1_value = get_post_meta( get_the_ID(), 'pricelink1', true );?>">sign up now</a>
+            <a class="button button-dark" href="<?php echo $key_1_value = get_post_meta( get_the_ID(), 'pricelink1', true );?>">sign up now</a>
           </div>
         </div>
         <div class="pricingBox">
           <?php the_block('pricing2') ?>
           <div class="buttonwrap">
-            <a class="button button-border-dark" href="<?php echo $key_1_value = get_post_meta( get_the_ID(), 'pricelink2', true );?>">sign up now</a>
+            <a class="button button-dark" href="<?php echo $key_1_value = get_post_meta( get_the_ID(), 'pricelink2', true );?>">sign up now</a>
           </div>
         </div>
         <div class="pricingBox">
           <?php the_block('pricing3') ?>
           <div class="buttonwrap">
-            <a class="button button-border-dark" href="<?php echo $key_1_value = get_post_meta( get_the_ID(), 'pricelink3', true );?>">sign up now</a>
+            <a class="button button-dark" href="<?php echo $key_1_value = get_post_meta( get_the_ID(), 'pricelink3', true );?>">sign up now</a>
           </div>
         </div>
         <div class="pricingBox">
           <?php the_block('pricing4') ?>
           <div class="buttonwrap">
-            <a class="button button-border-dark" href="<?php echo $key_1_value = get_post_meta( get_the_ID(), 'pricelink4', true );?>">sign up now</a>
+            <a class="button button-dark" href="<?php echo $key_1_value = get_post_meta( get_the_ID(), 'pricelink4', true );?>">sign up now</a>
           </div>
         </div>
       </div>
