@@ -348,15 +348,15 @@ select {
 
 .button-light:hover,
 .button-light:active {
-	color:#428bca;
+	color:rgb(240,118,0);
 	background:#ffffff;
 	text-decoration:none;
 }
 
 .button-dark {
-	color:#ffffff;
-	background:#428bca;
-	border:2px solid #428bca;
+	color:rgb(240,118,0);
+	background:rgb(240,118,0);
+	border:2px solid rgb(240,118,0);
 }
 
 .button-dark:hover,
@@ -368,15 +368,15 @@ select {
 }
 
 .button-border-dark {
-	color:#428bca;
-	border:1px solid #428bca;
+	color:#FF9900;
+	border:1px solid #FF9900;
 }
 
 .button-border-dark:hover,
 .button-border-dark:active {
 	color:#eeeeee;
-	background:#428bca;
-	border:1px solid #428bca;
+	background:#FF9900;
+	border:1px solid #FF9900;
 	text-decoration:none;
 }
 
@@ -615,7 +615,7 @@ figure.effect-bubba:hover p {
 
 h2 {
 	font: 800 26px Raleway;
-	color: #428bca;
+	color: #FF9900;
 	letter-spacing: -1px;
 	margin: 0 0 0px 0 !important;
 	padding: 0 !important;
